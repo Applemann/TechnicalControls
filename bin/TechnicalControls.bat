@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\TechnicalControls-all.jar
+set CLASSPATH=.\TechnicalControls-all.jar
 
 @rem Execute TechnicalControls
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TECHNICAL_CONTROLS_OPTS%  -jar "%CLASSPATH%" %CMD_LINE_ARGS%
